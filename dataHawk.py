@@ -29,28 +29,31 @@ except Exception as e:
     print("No cookies acceptance button found or an error occurred:", str(e))
 
 driver.find_element(By.XPATH, "(//div[contains(text(),'Unlock Full List')])[1]").click()
-time.sleep(5) 
+time.sleep(20) 
 
-# Switch to the dialogue box iframe if necessary
-try:
-    # Wait until the modal is visible
-    WebDriverWait(driver, 10).until(
-        EC.visibility_of_element_located((By.ID, "modal"))  # Replace 'modal' with the actual modal ID
-    )
-    href_element = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, 'linkedin.com/oauth/v2/authorization')]"))
-    )
+# # Switch to the dialogue box iframe if necessary
+# try:
+#     # Wait until the modal is visible
+#     WebDriverWait(driver, 10).until(
+#         EC.visibility_of_element_located((By.ID, "modal"))  # Replace 'modal' with the actual modal ID
+#     )
+#     href_element = WebDriverWait(driver, 10).until(
+#         EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, 'linkedin.com/oauth/v2/authorization')]"))
+#     )
 
-except Exception as e:
-    print("An error occurred while interacting with the modal:", str(e))
+# except Exception as e:
+#     print("An error occurred while interacting with the modal:", str(e))
 
-driver.find_element(By.XPATH,"//input[@id='username']").send_keys("rajuvenkat1011@gmail.com")
-time.sleep(5)
-driver.find_element(By.XPATH,"//input[@id='password']").send_keys("Raju@1011")
-driver.find_element(By.XPATH,"//button[@type='submit']").click()
-time.sleep(5)
+# driver.find_element(By.XPATH,"//input[@id='username']").send_keys("rajuvenkat1011@gmail.com")
+# time.sleep(5)
+# driver.find_element(By.XPATH,"//input[@id='password']").send_keys("Raju@1011")
+# driver.find_element(By.XPATH,"//button[@type='submit']").click()
+# time.sleep(5)
 
 for address in addresses:
+    driver.get(url)
+    # driver.find_element(By.XPATH, "//div[@class='shrink-0']/a").click()
+    time.sleep(5)
     driver.find_element(By.XPATH, "//input[@id='action-search']").send_keys(address)
     time.sleep(5)
     # Find all results and check size
@@ -60,19 +63,20 @@ for address in addresses:
             driver.find_element(By.XPATH, "(//a[@id='result0'])[1]").click()
             time.sleep(5)
             YearBuilt = driver.find_element(By.XPATH, "//div[contains(text(),'Year Built')]/../div[2]").text
+            print(f"Year Built: {YearBuilt}")
             time.sleep(5)
-            with open('datacenters_with_add.csv', mode='a', newline='') as file:
-                pd.DataFrame({
-                    'Year Built': [YearBuilt]
-                }).to_csv(file, index=True)
+            pd.DataFrame({
+			    'Address': [address],
+			    'Year': [YearBuilt.strip()],
+		    }).to_csv('datacentersYears.csv', mode='a', header=False, index=False)
         except Exception as e:
             print(f"Error processing {address}: {str(e)}")
             continue
     else:
-        with open('datacenters_with_add.csv', mode='a', newline='') as file:
-                pd.DataFrame({
-                    'Year Built': ['Not Available']
-                }).to_csv(file, index=True)
+        pd.DataFrame({
+			    'Address': [address],
+			    'Year': ['Not Available'],
+		    }).to_csv('datacentersYears.csv', mode='a', header=False, index=False)
         print(f"No results found for {address}")
         continue
 
