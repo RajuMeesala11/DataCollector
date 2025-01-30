@@ -16,7 +16,7 @@ driver = webdriver.Chrome(
 	service=Service(ChromeDriverManager().install()),
 	options=chrome_options
 )
-df = pd.read_csv('datacenters_with_add.csv')  # Replace with your CSV filename
+df = pd.read_csv('datacenters_with_years.csv')  # Replace with your CSV filename
 addresses = df['Street Address'].tolist()  # Replace 'street_address' with your column name
 url = "https://datacenterhawk.com/marketplace"
 driver.get(url)
@@ -68,7 +68,7 @@ for address in addresses:
             pd.DataFrame({
 			    'Address': [address],
 			    'Year': [YearBuilt.strip()],
-		    }).to_csv('datacentersYears.csv', mode='a', header=False, index=False)
+		    }).to_csv('dataMissingYears.csv', mode='a', header=False, index=False)
         except Exception as e:
             print(f"Error processing {address}: {str(e)}")
             continue
@@ -76,7 +76,7 @@ for address in addresses:
         pd.DataFrame({
 			    'Address': [address],
 			    'Year': ['Not Available'],
-		    }).to_csv('datacentersYears.csv', mode='a', header=False, index=False)
+		    }).to_csv('dataMissingYears.csv', mode='a', header=False, index=False)
         print(f"No results found for {address}")
         continue
 
