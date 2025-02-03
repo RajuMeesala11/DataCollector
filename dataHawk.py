@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # Set up Chrome options
 chrome_options = Options()
 # chrome_options.add_argument('--headless')  # Uncomment to run in headless mode
-# Initialize the Chrome WebDriver with the new syntax
+
 driver = webdriver.Chrome(
 	service=Service(ChromeDriverManager().install()),
 	options=chrome_options
