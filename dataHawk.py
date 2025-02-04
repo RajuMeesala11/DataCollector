@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # Set up Chrome options
 chrome_options = Options()
-# chrome_options.add_argument('--headless')  # Uncomment to run in headless mode
+
 
 driver = webdriver.Chrome(
 	service=Service(ChromeDriverManager().install()),
@@ -31,24 +31,7 @@ except Exception as e:
 driver.find_element(By.XPATH, "(//div[contains(text(),'Unlock Full List')])[1]").click()
 time.sleep(20) 
 
-# # Switch to the dialogue box iframe if necessary
-# try:
-#     # Wait until the modal is visible
-#     WebDriverWait(driver, 10).until(
-#         EC.visibility_of_element_located((By.ID, "modal"))  # Replace 'modal' with the actual modal ID
-#     )
-#     href_element = WebDriverWait(driver, 10).until(
-#         EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, 'linkedin.com/oauth/v2/authorization')]"))
-#     )
 
-# except Exception as e:
-#     print("An error occurred while interacting with the modal:", str(e))
-
-# driver.find_element(By.XPATH,"//input[@id='username']").send_keys("rajuvenkat1011@gmail.com")
-# time.sleep(5)
-# driver.find_element(By.XPATH,"//input[@id='password']").send_keys("Raju@1011")
-# driver.find_element(By.XPATH,"//button[@type='submit']").click()
-# time.sleep(5)
 
 for address in addresses:
     driver.get(url)
