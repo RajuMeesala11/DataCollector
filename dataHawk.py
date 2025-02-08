@@ -17,7 +17,7 @@ driver = webdriver.Chrome(
 	options=chrome_options
 )
 df = pd.read_csv('datacenters_with_years.csv')  # Replace with your CSV filename
-addresses = df['Street Address'].tolist()  # Replace 'street_address' with your column name
+addresses = df['Street Address'].tolist()  
 url = "https://datacenterhawk.com/marketplace"
 driver.get(url)
 time.sleep(10)
@@ -35,7 +35,6 @@ time.sleep(20)
 
 for address in addresses:
     driver.get(url)
-    # driver.find_element(By.XPATH, "//div[@class='shrink-0']/a").click()
     time.sleep(5)
     driver.find_element(By.XPATH, "//input[@id='action-search']").send_keys(address)
     time.sleep(5)
