@@ -20,10 +20,7 @@ url = "https://www.datacenters.com/locations?query=USA"
 driver.get(url)
 
 time.sleep(10)
-# Use XPath to locate elements
-# elements = driver.find_elements(By.XPATH, "//div[contains(@class,'LocationTile__detailsContainer')]/div/div[3]")
-# for element in elements:
-#     print(element.text.strip())
+
 driver.find_element(By.XPATH, "//input[@id='locations-search']").send_keys("United States")
 time.sleep(5)
 while True:
