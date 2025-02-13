@@ -1,0 +1,5 @@
+outs:
+- md5: b893c5ee22cdac92fabfc74e8b0193dc
+  size: 34375
+  hash: md5
+  path: datacenter.csv
