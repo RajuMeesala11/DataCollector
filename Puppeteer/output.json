@@ -1,0 +1,492 @@
+{
+  "Virginia": {
+    "count": "537",
+    "details": [
+      {
+        "name": "Ashburn",
+        "url": "https://www.datacentermap.com/usa/virginia/ashburn/",
+        "count": "133"
+      },
+      {
+        "name": "Reston",
+        "url": "https://www.datacentermap.com/usa/virginia/reston/",
+        "count": "6"
+      },
+      {
+        "name": "Richmond",
+        "url": "https://www.datacentermap.com/usa/virginia/richmond/",
+        "count": "54"
+      },
+      {
+        "name": "Norfolk",
+        "url": "https://www.datacentermap.com/usa/virginia/norfolk/",
+        "count": "7"
+      },
+      {
+        "name": "Manassas",
+        "url": "https://www.datacentermap.com/usa/virginia/manassas/",
+        "count": "76"
+      },
+      {
+        "name": "Vienna",
+        "url": "https://www.datacentermap.com/usa/virginia/vienna-virginia/",
+        "count": "9"
+      },
+      {
+        "name": "Sterling",
+        "url": "https://www.datacentermap.com/usa/virginia/sterling/",
+        "count": "99"
+      },
+      {
+        "name": "Chantilly",
+        "url": "https://www.datacentermap.com/usa/virginia/chantilly/",
+        "count": "21"
+      },
+      {
+        "name": "Herndon",
+        "url": "https://www.datacentermap.com/usa/virginia/herndon/",
+        "count": "10"
+      },
+      {
+        "name": "Lexington",
+        "url": "https://www.datacentermap.com/usa/virginia/lexington-va/",
+        "count": "1"
+      },
+      {
+        "name": "Middletown",
+        "url": "https://www.datacentermap.com/usa/virginia/middletown/",
+        "count": "1"
+      },
+      {
+        "name": "Gainesville",
+        "url": "https://www.datacentermap.com/usa/virginia/gainesville-va/",
+        "count": "27"
+      },
+      {
+        "name": "Dulles",
+        "url": "https://www.datacentermap.com/usa/virginia/dulles/",
+        "count": "23"
+      },
+      {
+        "name": "Fredericksburg",
+        "url": "https://www.datacentermap.com/usa/virginia/fredericksburg/",
+        "count": "26"
+      },
+      {
+        "name": "Harrisonburg",
+        "url": "https://www.datacentermap.com/usa/virginia/harrisonburg/",
+        "count": "2"
+      },
+      {
+        "name": "Roanoke",
+        "url": "https://www.datacentermap.com/usa/virginia/roanoke/",
+        "count": "1"
+      },
+      {
+        "name": "Bristow",
+        "url": "https://www.datacentermap.com/usa/virginia/bristow/",
+        "count": "19"
+      },
+      {
+        "name": "Culpeper",
+        "url": "https://www.datacentermap.com/usa/virginia/culpeper/",
+        "count": "15"
+      },
+      {
+        "name": "South Riding",
+        "url": "https://www.datacentermap.com/usa/virginia/south-riding/",
+        "count": "5"
+      },
+      {
+        "name": "South West Virginia",
+        "url": "https://www.datacentermap.com/usa/virginia/south-west-virginia/",
+        "count": "1"
+      },
+      {
+        "name": "Wise",
+        "url": "https://www.datacentermap.com/usa/virginia/wise/",
+        "count": "1"
+      }
+    ]
+  },
+  "Texas": {
+    "count": "303",
+    "details": [
+      {
+        "name": "Dallas",
+        "url": "https://www.datacentermap.com/usa/texas/dallas/",
+        "count": "156"
+      },
+      {
+        "name": "Houston",
+        "url": "https://www.datacentermap.com/usa/texas/houston/",
+        "count": "44"
+      },
+      {
+        "name": "San Antonio",
+        "url": "https://www.datacentermap.com/usa/texas/san-antonio/",
+        "count": "34"
+      },
+      {
+        "name": "El Paso",
+        "url": "https://www.datacentermap.com/usa/texas/el-paso/",
+        "count": "7"
+      },
+      {
+        "name": "Amarillo",
+        "url": "https://www.datacentermap.com/usa/texas/amarillo/",
+        "count": "2"
+      },
+      {
+        "name": "Austin",
+        "url": "https://www.datacentermap.com/usa/texas/austin/",
+        "count": "31"
+      },
+      {
+        "name": "McAllen",
+        "url": "https://www.datacentermap.com/usa/texas/mcallen/",
+        "count": "4"
+      },
+      {
+        "name": "Bryan",
+        "url": "https://www.datacentermap.com/usa/texas/bryan/",
+        "count": "1"
+      },
+      {
+        "name": "The Woodlands",
+        "url": "https://www.datacentermap.com/usa/texas/the-woodlands/",
+        "count": "1"
+      },
+      {
+        "name": "Lubbock",
+        "url": "https://www.datacentermap.com/usa/texas/lubbock/",
+        "count": "2"
+      },
+      {
+        "name": "Nacogdoches",
+        "url": "https://www.datacentermap.com/usa/texas/nacogdoches/",
+        "count": "1"
+      },
+      {
+        "name": "Tyler",
+        "url": "https://www.datacentermap.com/usa/texas/tyler/",
+        "count": "1"
+      },
+      {
+        "name": "Laredo",
+        "url": "https://www.datacentermap.com/usa/texas/laredo/",
+        "count": "3"
+      },
+      {
+        "name": "Waco",
+        "url": "https://www.datacentermap.com/usa/texas/waco/",
+        "count": "3"
+      },
+      {
+        "name": "Abilene",
+        "url": "https://www.datacentermap.com/usa/texas/abilene/",
+        "count": "2"
+      },
+      {
+        "name": "Harlingen",
+        "url": "https://www.datacentermap.com/usa/texas/harlingen/",
+        "count": "2"
+      },
+      {
+        "name": "Wichita Falls",
+        "url": "https://www.datacentermap.com/usa/texas/wichita-falls/",
+        "count": "2"
+      },
+      {
+        "name": "Corpus Christi",
+        "url": "https://www.datacentermap.com/usa/texas/corpus-christi/",
+        "count": "1"
+      },
+      {
+        "name": "Eagle Pass",
+        "url": "https://www.datacentermap.com/usa/texas/eagle-pass/",
+        "count": "1"
+      },
+      {
+        "name": "Fort Stockton",
+        "url": "https://www.datacentermap.com/usa/texas/fort-stockton/",
+        "count": "1"
+      },
+      {
+        "name": "Montgomery TX",
+        "url": "https://www.datacentermap.com/usa/texas/montgomery-tx/",
+        "count": "1"
+      },
+      {
+        "name": "Pecos",
+        "url": "https://www.datacentermap.com/usa/texas/pecos/",
+        "count": "1"
+      },
+      {
+        "name": "San Angelo",
+        "url": "https://www.datacentermap.com/usa/texas/san-angelo/",
+        "count": "1"
+      },
+      {
+        "name": "Stratford",
+        "url": "https://www.datacentermap.com/usa/texas/stratford/",
+        "count": "1"
+      }
+    ]
+  },
+  "California": {
+    "count": "290",
+    "details": [
+      {
+        "name": "Los Angeles",
+        "url": "https://www.datacentermap.com/usa/california/los-angeles/",
+        "count": "67"
+      },
+      {
+        "name": "San Jose",
+        "url": "https://www.datacentermap.com/usa/california/san-jose/",
+        "count": "40"
+      },
+      {
+        "name": "Fremont",
+        "url": "https://www.datacentermap.com/usa/california/fremont/",
+        "count": "6"
+      },
+      {
+        "name": "San Francisco",
+        "url": "https://www.datacentermap.com/usa/california/san-francisco/",
+        "count": "15"
+      },
+      {
+        "name": "Santa Clara",
+        "url": "https://www.datacentermap.com/usa/california/santa-clara/",
+        "count": "72"
+      },
+      {
+        "name": "Palo Alto",
+        "url": "https://www.datacentermap.com/usa/california/palo-alto/",
+        "count": "2"
+      },
+      {
+        "name": "Sacramento",
+        "url": "https://www.datacentermap.com/usa/california/sacramento/",
+        "count": "22"
+      },
+      {
+        "name": "Oakland",
+        "url": "https://www.datacentermap.com/usa/california/oakland/",
+        "count": "1"
+      },
+      {
+        "name": "San Diego",
+        "url": "https://www.datacentermap.com/usa/california/san-diego/",
+        "count": "15"
+      },
+      {
+        "name": "Irvine",
+        "url": "https://www.datacentermap.com/usa/california/irvine/",
+        "count": "14"
+      },
+      {
+        "name": "Tustin",
+        "url": "https://www.datacentermap.com/usa/california/tustin/",
+        "count": "2"
+      },
+      {
+        "name": "Mountain View",
+        "url": "https://www.datacentermap.com/usa/california/mountain-view/",
+        "count": "1"
+      },
+      {
+        "name": "San Luis Obispo",
+        "url": "https://www.datacentermap.com/usa/california/san-luis-obispo/",
+        "count": "4"
+      },
+      {
+        "name": "Modesto",
+        "url": "https://www.datacentermap.com/usa/california/modesto/",
+        "count": "2"
+      },
+      {
+        "name": "Fresno",
+        "url": "https://www.datacentermap.com/usa/california/fresno/",
+        "count": "3"
+      },
+      {
+        "name": "Riverside",
+        "url": "https://www.datacentermap.com/usa/california/riverside/",
+        "count": "3"
+      },
+      {
+        "name": "El Segundo",
+        "url": "https://www.datacentermap.com/usa/california/el-segundo/",
+        "count": "3"
+      },
+      {
+        "name": "Emeryville",
+        "url": "https://www.datacentermap.com/usa/california/emeryville/",
+        "count": "2"
+      },
+      {
+        "name": "Burbank",
+        "url": "https://www.datacentermap.com/usa/california/burbank/",
+        "count": "1"
+      },
+      {
+        "name": "Goleta",
+        "url": "https://www.datacentermap.com/usa/california/goleta/",
+        "count": "1"
+      },
+      {
+        "name": "Santa Cruz",
+        "url": "https://www.datacentermap.com/usa/california/santa-cruz/",
+        "count": "1"
+      },
+      {
+        "name": "Hayward",
+        "url": "https://www.datacentermap.com/usa/california/hayward/",
+        "count": "3"
+      },
+      {
+        "name": "Stockton",
+        "url": "https://www.datacentermap.com/usa/california/stockton/",
+        "count": "3"
+      },
+      {
+        "name": "Bakersfield",
+        "url": "https://www.datacentermap.com/usa/california/bakersfield/",
+        "count": "2"
+      },
+      {
+        "name": "Santa Barbara",
+        "url": "https://www.datacentermap.com/usa/california/santa-barbara/",
+        "count": "2"
+      },
+      {
+        "name": "Hawthorne",
+        "url": "https://www.datacentermap.com/usa/california/hawthorne/",
+        "count": "1"
+      },
+      {
+        "name": "Manchester CA",
+        "url": "https://www.datacentermap.com/usa/california/manchester-ca/",
+        "count": "1"
+      },
+      {
+        "name": "San Bernardino",
+        "url": "https://www.datacentermap.com/usa/california/san-bernardino/",
+        "count": "1"
+      }
+    ]
+  },
+  "Ohio": {
+    "count": "175",
+    "details": [
+      {
+        "name": "Cleveland",
+        "url": "https://www.datacentermap.com/usa/ohio/cleveland/",
+        "count": "24"
+      },
+      {
+        "name": "Columbus",
+        "url": "https://www.datacentermap.com/usa/ohio/columbus/",
+        "count": "107"
+      },
+      {
+        "name": "Akron",
+        "url": "https://www.datacentermap.com/usa/ohio/akron/",
+        "count": "6"
+      },
+      {
+        "name": "Cincinnati",
+        "url": "https://www.datacentermap.com/usa/ohio/cincinnati/",
+        "count": "22"
+      },
+      {
+        "name": "Toledo",
+        "url": "https://www.datacentermap.com/usa/ohio/toledo/",
+        "count": "2"
+      },
+      {
+        "name": "Youngstown",
+        "url": "https://www.datacentermap.com/usa/ohio/youngstown/",
+        "count": "1"
+      },
+      {
+        "name": "Canton",
+        "url": "https://www.datacentermap.com/usa/ohio/canton/",
+        "count": "2"
+      },
+      {
+        "name": "Springfield",
+        "url": "https://www.datacentermap.com/usa/ohio/springfield-oh/",
+        "count": "1"
+      },
+      {
+        "name": "Lebanon",
+        "url": "https://www.datacentermap.com/usa/ohio/lebanon/",
+        "count": "1"
+      },
+      {
+        "name": "Dayton",
+        "url": "https://www.datacentermap.com/usa/ohio/dayton/",
+        "count": "5"
+      },
+      {
+        "name": "Akron Canton",
+        "url": "https://www.datacentermap.com/usa/ohio/akron-canton/",
+        "count": "2"
+      },
+      {
+        "name": "Hannibal",
+        "url": "https://www.datacentermap.com/usa/ohio/hannibal/",
+        "count": "1"
+      },
+      {
+        "name": "Lima OH",
+        "url": "https://www.datacentermap.com/usa/ohio/lima-oh/",
+        "count": "1"
+      }
+    ]
+  },
+  "Illinois": {
+    "count": "163",
+    "details": [
+      {
+        "name": "Chicago",
+        "url": "https://www.datacentermap.com/usa/illinois/chicago/",
+        "count": "145"
+      },
+      {
+        "name": "Aurora",
+        "url": "https://www.datacentermap.com/usa/illinois/aurora/",
+        "count": "11"
+      },
+      {
+        "name": "Bloomington",
+        "url": "https://www.datacentermap.com/usa/illinois/bloomington/",
+        "count": "2"
+      },
+      {
+        "name": "Champaign",
+        "url": "https://www.datacentermap.com/usa/illinois/champaign/",
+        "count": "2"
+      },
+      {
+        "name": "Peoria",
+        "url": "https://www.datacentermap.com/usa/illinois/peoria/",
+        "count": "1"
+      },
+      {
+        "name": "Rockford",
+        "url": "https://www.datacentermap.com/usa/illinois/rockford/",
+        "count": "1"
+      },
+      {
+        "name": "Rantoul",
+        "url": "https://www.datacentermap.com/usa/illinois/rantoul/",
+        "count": "1"
+      }
+    ]
+  }
+}
